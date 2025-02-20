@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src = 'web.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WISHKY x CHAIYOPIPE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--  comment ctrl+/ -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="WISHKY Logo"> 
+            <span class="divider">x</span>
+            <strong class="chaiyopipe">CHAIYOPIPE</strong>
+        </div>
+        <div class="login-register">
+            <img src="usericon.png" alt="User Icon" class="user-icon" />
+            <br>
+            <a href="#" id="loginBtn">เข้าสู่ระบบ / ลงทะเบียน</a>
+        </div>
+        <style>
+            .user-icon {
+                width: 30px;
+                height: 30px;
+                filter: brightness(0) saturate(100%) invert(60%) sepia(34%) saturate(457%) hue-rotate(64deg) brightness(89%) contrast(87%);
+                transition: filter 0.3s ease;
+            }
+        
+            .user-icon:hover {
+                filter: brightness(0) saturate(100%) invert(80%) sepia(20%) saturate(600%) hue-rotate(90deg) brightness(95%) contrast(95%);
+            }
+        </style>
+    </div>
+
+    <div class="hero">
+        <h1>WISHKY</h1>
+        <button class="start-button" onclick="startApp()">เริ่มต้นการใช้งาน</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
